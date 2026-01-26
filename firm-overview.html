@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firm Overview - Credit Solutions Inc.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .overview-section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .overview-section h2 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #2a5298;
+            padding-bottom: 0.5rem;
+        }
+
+        .overview-section h3 {
+            color: #2a5298;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .overview-section p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .stat-card h3 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .stat-card p {
+            font-size: 1rem;
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        .services-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .services-list li {
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+            background: #f8f9fa;
+            border-left: 4px solid #2a5298;
+            border-radius: 4px;
+        }
+
+        .services-list li strong {
+            color: #1e3c72;
+        }
+
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .contact-item {
+            margin: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .overview-section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Credit Solutions Inc.</h1>
+        <p>Your Trusted Partner in Financial Growth</p>
+    </header>
+
+    <div class="container">
+        <section class="overview-section">
+            <h2>About Our Firm</h2>
+            <p>
+                Credit Solutions Inc. is a leading financial services firm specializing in comprehensive credit solutions for businesses and individuals. Established in 2010, we have built a reputation for excellence in credit analysis, risk management, and financial advisory services.
+            </p>
+            <p>
+                With over a decade of experience in the industry, our team of certified professionals provides innovative credit solutions tailored to meet the unique needs of our diverse client base. We pride ourselves on our commitment to transparency, integrity, and exceptional customer service.
+            </p>
+        </section>
+
+        <section class="overview-section">
+            <h2>Our Mission & Vision</h2>
+            <h3>Mission</h3>
+            <p>
+                To empower individuals and businesses to achieve financial success through expert credit management, strategic advisory services, and innovative financial solutions.
+            </p>
+            <h3>Vision</h3>
+            <p>
+                To be the most trusted and respected credit solutions provider globally, recognized for our commitment to client success and financial innovation.
+            </p>
+        </section>
+
+        <section class="overview-section">
+            <h2>Key Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>15,000+</h3>
+                    <p>Clients Served</p>
+                </div>
+                <div class="stat-card">
+                    <h3>$2.5B</h3>
+                    <p>Credit Facilitated</p>
+                </div>
+                <div class="stat-card">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-card">
+                    <h3>13</h3>
+                    <p>Years of Excellence</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="overview-section">
+            <h2>Our Services</h2>
+            <ul class="services-list">
+                <li>
+                    <strong>Credit Analysis & Reporting:</strong> Comprehensive credit assessments and detailed reporting for informed decision-making.
+                </li>
+                <li>
+                    <strong>Risk Management:</strong> Strategic risk evaluation and mitigation strategies to protect your financial interests.
+                </li>
+                <li>
+                    <strong>Credit Restructuring:</strong> Expert guidance on debt restructuring and credit optimization.
+                </li>
+                <li>
+                    <strong>Corporate Credit Solutions:</strong> Tailored credit facilities and working capital solutions for businesses.
+                </li>
+                <li>
+                    <strong>Credit Advisory:</strong> Professional consultation on credit policies, procedures, and best practices.
+                </li>
+                <li>
+                    <strong>Portfolio Management:</strong> Active management of credit portfolios to maximize returns while minimizing risk.
+                </li>
+            </ul>
+        </section>
+
+        <section class="overview-section">
+            <h2>Why Choose Us</h2>
+            <p>
+                <strong>Expert Team:</strong> Our professionals hold advanced degrees and certifications in finance, accounting, and risk management.
+            </p>
+            <p>
+                <strong>Proven Track Record:</strong> Over 13 years of consistent performance and client success stories.
+            </p>
+            <p>
+                <strong>Technology-Driven:</strong> We leverage cutting-edge analytics and AI-powered tools for superior credit assessment.
+            </p>
+            <p>
+                <strong>Client-Centric Approach:</strong> Every solution is customized to align with your specific financial goals and circumstances.
+            </p>
+            <p>
+                <strong>Regulatory Compliance:</strong> We maintain the highest standards of compliance with all relevant financial regulations.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Credit Solutions Inc. All rights reserved.</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Phone:</strong> +1 (555) 123-4567
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong> info@creditsolutions.com
+            </div>
+            <div class="contact-item">
+                <strong>Address:</strong> 123 Financial District, New York, NY 10004
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
